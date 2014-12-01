@@ -60,8 +60,8 @@ function navi(){
         ['System',  'tools.php?tool=shell', 'shell'] 
       ] 
     ],
-    ['About',   '/admin-about.php', 'about'],
-    ['Update',    '/admin-update.php', 'update']//,
+    ['About',   'admin-about.php', 'about'],
+    ['Update',    'admin-update.php', 'update']//,
     //['Backup',    'admin-config.php', 'config'],
     //['Upgrade',   'admin-upgrade.php', 'upgrade'],
     //['Logout',    'logout.php', 'logout']
