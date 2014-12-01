@@ -49,9 +49,9 @@ function toggleChildMenu(){
 function navi(){ 
   var menu = [
     ['Status', 'index.php', 'status'],
-    ['OpenVPN', '/openvpn.php', 'openvpn'],
-    ['Settings', '/settings.php', 'settings'],
-    ['Logs',    '/log.php', 'log'],
+    ['OpenVPN', 'openvpn.php', 'openvpn'],
+    ['Settings','settings.php', 'settings'],
+    ['Logs',    'log.php', 'log'],
     ['Diagnostics', 'tools', 0, 
       [
         ['Ping',  'tools.php?tool=ping', 'ping'],
@@ -60,8 +60,8 @@ function navi(){
         ['System',  'tools.php?tool=shell', 'shell'] 
       ] 
     ],
-    ['About',   '/admin-about.php', 'about'],
-    ['Update',    '/admin-update.php', 'update']//,
+    ['About',   'admin-about.php', 'about'],
+    ['Update',    'admin-update.php', 'update']//,
     //['Backup',    'admin-config.php', 'config'],
     //['Upgrade',   'admin-upgrade.php', 'upgrade'],
     //['Logout',    'logout.php', 'logout']
