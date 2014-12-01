@@ -49,9 +49,9 @@ function toggleChildMenu(){
 function navi(){ 
   var menu = [
     ['Status', 'index.php', 'status'],
-    ['OpenVPN', '/openvpn.php', 'openvpn'],
-    ['Settings', '/settings.php', 'settings'],
-    ['Logs',    '/log.php', 'log'],
+    ['OpenVPN', 'openvpn.php', 'openvpn'],
+    ['Settings','settings.php', 'settings'],
+    ['Logs',    'log.php', 'log'],
     ['Diagnostics', 'tools', 0, 
       [
         ['Ping',  'tools.php?tool=ping', 'ping'],
